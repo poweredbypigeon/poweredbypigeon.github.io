@@ -1,0 +1,3 @@
+each website has its own folder.
+
+"imgs" and "refs" are the only folders without websites. 

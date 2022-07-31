@@ -1,0 +1,83 @@
+
+/*need to make this mobile ready, 3 layouts. (style-s, style-m, style). Put common styles in style-s, put everything somewhere else.
+
+PROJECTS: 1 project phones 
+2 project othrwise
+*/
+/* home bar */
+
+#main-content {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+/*stylize bkgd color, border of a's*/
+.homesection {
+    width: 18%;
+    text-align: center;
+    display: inline-block; /* a tags are inline so they don't expand to width */
+    font-size: 18px;
+    /*border: 1px black solid;*/
+    background-color: var(--navcolor);
+    color: white;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    width: 18%; /*for some reason 100% sets it out to width of whole screen! */
+    display: none;
+    position: absolute;
+    
+}
+#dropdown-link {
+    width: 100%;
+    color: white;
+    display: inline-block;
+}
+.dropdown-content a {
+    display: block;
+    /*border: 1px black solid;
+    */
+    background-color: lightgray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+.dropdown > a {
+    width: 100%;
+    display: inline-block; /*not sure what this does but it seems to make the a obey the width command */
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.dropdown-content a:hover {
+    background-color: orangered;
+    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align: center;
+    color: white;
+}
+#main-content {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+/* flex displays */
+.flexbox-padding-60-m {
+    width: 60%;
+}
+.flexbox-padding-30-m {
+    width: 30%;
+}
+/*homepage*/
+
+.project {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 1.5em;
+    width: 50%; /*works on flex, what should the gap between be? */
+}
+.project-box {
+    border: 3px black solid;
+}

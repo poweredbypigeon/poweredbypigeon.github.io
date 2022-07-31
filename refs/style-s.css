@@ -1,0 +1,207 @@
+/* debug section */
+
+/* * {
+    border: 3px black solid;
+} */
+/* end of debug section */
+/* color palette variables */
+/*
+1. Import
+2. General statements (divide by header, and then have comment: index.html, comment: blog.html, etc.) */
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(https://fonts.googleapis.com/css?family=Fira+Code);
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+:root { /* where variables are stored */
+    --navcolor: #777777;
+}
+
+*, ::after, ::before { /* useful for convenience sake */
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none; /*no underline */
+}
+body {
+    font-family:  "Fira Code", "Titillium Web", "Inter", sans-serif;
+    margin: 0;
+}
+
+
+/* home bar */
+
+#imgPlaceholderMainPage {
+    margin: 0 auto;
+    width: 100%;
+}
+/*stylize bkgd color, border of a's
+remember this code belongs in style-m move it out when I find alternative*/
+.homesection {
+    width: 100%;
+    text-align: center;
+    display: inline-block; /* a tags are inline so they don't expand to width */
+    font-size: 18px;
+    /*border: 1px black solid;*/
+    background-color: var(--navcolor);
+    color: white;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+}
+#dropdown-link {
+    width: 100%;
+    color: white;
+    display: inline-block;
+}
+.dropdown-content a {
+    display: block;
+    /*border: 1px black solid;
+    */
+    background-color: lightgray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+.dropdown > a {
+    width: 100%;
+    text-align: center;
+    display: inline-block; /*not sure what this does but it seems to make the a obey the width command */\
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.dropdown-content a:hover {
+    background-color: orangered;
+    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align: center;
+    color: white;
+}
+nav {
+    width: 100%;
+    /*position: fixed; (after scrolling past a certain point, use JavaScript to make it fixed)*/
+    background-color: var(--navcolor);
+    color: white;
+    /*position: fixed;*/
+}
+nav a {
+    color: white;
+}
+.filler {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 1.5em; /*very arbitrary, switch to em? */
+}
+
+#main-content {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+/* footer */
+footer {
+   /* background-color: cornflowerblue;
+    box-shadow: 0 50vh 0 50vh cornflowerblue; /* shadow falls off screen 100vh https://stackoverflow.com/questions/9741701/how-can-i-extend-a-footer-to-bottom-of-page */
+    text-align: center;
+}
+.icon-large {
+    width: 60px;
+    height: 60px; 
+    padding: 15px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    box-sizing: content-box;
+}
+.footer-icon {
+    padding: 15px;
+}
+/* index.html */
+.scrollable {
+    border: 2px black solid;
+    border-radius: 5px;
+    height: 12em;
+    overflow: scroll;
+}
+.update-point {
+    padding: 8px;
+    font-size: 1em;
+}
+.panel {
+    /*background-color: lightgray;*/
+    margin: 0;
+}
+.central-page {
+    text-align: center;
+    width: 100%;
+}
+
+.flexbox-padding-60-s {
+    width: 60%;
+}
+.flexbox-padding-30-s {
+    width: 30%;
+}
+.flexbox-row {
+    display: flex;
+    flex-direction: row;
+}
+/* project.html */
+.project {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 1.5em;
+    width: 100%; /*works on flex, what should the gap between be? */
+}
+.project-box {
+    border: 3px black solid;
+}
+.project-img {
+    width: 100%;
+}
+.project-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-desc{
+    border-top: 3px black solid;
+    background-color: azure;
+    padding: 0.5em;
+}
+.project-heading-holder {
+    display: flex;
+}
+.project-icon {
+    margin: auto 8px; /*auto margin centres it. */
+}
+/*contest solutions */
+.rounded {
+    
+    padding: 8px;
+    border-radius: 5px;
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#math {
+    border: 1px mediumblue solid;
+    background-color: lightblue;
+}
+#chem {
+    border: 1px green solid;
+    background-color: lightgreen;
+}
+#cs {
+    border: 1px black solid;
+    background-color: whitesmoke;
+}

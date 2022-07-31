@@ -1,0 +1,94 @@
+home page:
+
+latest updates bar on the side, could randomize a quote every day
+
+latest page should give you updates and new blog posts
+
+make it more colourful (have a defined colour scheme)
+
+put "Hi, I am Avery" in about and talka bout self  
+
+advertise blog on front page- give example posts.  
+
+Make projects a separate bar, what should bar look like?
+
+(could include a progress bar on some future projects) 
+
+Put STEM -> Projects
+
+ACADEMICS -> (tips for school / helpful study materials / contests), books 
+
+math team
+
+contests material -> contest solutions
+
+Or maybe BLOG / WRITING -> SCHOOL (tips for school / helpful study materials or apps / contests, tips for different courses), LIFE (interesting things I found, puzzles, stuff I've been doing or how I'm studying (for math contests), grades discussion, book reviews [To Build A Fire, Station Eleven, (self improvement/world books), etc.]), CONTESTS
+(e.g. blog on a subject, solve an interesting math problem) )
+
+could have an overview of some categories. 
+
+
+
+
+more changes: (reorganize Blog Plan.docx to incorporate for small changes)
+
+make icon transparent. 
+
+add 404 page
+
+have an indexing system for blog for now (until I can make it more advanced)
+
+(remove resume) 
+
+/blog.html -> /blog/index.html, use howardhalim.com for pathing 
+
+make icons 35px
+
+AFTER U STUFF:
+
+The English blog post- more negative stuff 
+
+(Could have a private blog section for myself where I discuss political stuff / English blog posts so no one sees it)
+
+e.g. review of self improvement books, my true self
+
+
+<e.g. review of OneNote, etc. could even advertise my own notetaking ssystem "NOTE TAKING SYSTEMS: THE GOOD & THE BAD">
+<review of all my classes, tips to study them, etc. Like my "HS Progress Report" but without the final marks>
+
+("well-rounded": study stocks/business/finance, alongisde academic STEM and industry led subjects like engineering (robotics)/medicine/etc.
+
+and then personal stuff like sports/building/etc. )
+
+(Wait But Why blog posts: talk about new technologies (do research on industry trends). but avoid politics)
+
+(mathcsr.org delve into subjects)
+
+(A MIT OCW- type learning plan, goepigen. Could include stuff like "Blockchain and Money")
+
+(make best blog posts videos, e.g. "A Review of Grade 11 Biology in Under 32 Minutes")
+
+
+
+"HOME", "ABOUT", "BLOG" (academic (e.g. school tips), STEM (e.g. contest studying, MIT OCW), business (e.g. metaverse thoughts- have 2-3 posts), misc (life stuff)) , "PROJECTS", "CONTESTS" (math team, contest solutions, "contest advice") as a featured blopost. 
+
+OTHER THINGS:
+
+early admission- do you receive an ya davantages if your app is in February? Are you selected fo rscholarships only out of that pool?
+
+How many people get accepted in Feb vs May? Are you a straggler? When are the rounds of acceptance?
+
+THeRoadToEngineering.com says There is no advantage to being selected early. 
+
+People apply to MIT because: "If you apply early action, you do have a slightly better chance of getting accepted. According to MIT's admission statistics, if you apply early action, you do have a slightly better chance of getting accepted than if you apply regular action."
+
+well rounded- does it work? (e.g. AIF) it seems like it's more about "what are your goals and why will program X help you?"
+---
+talk about how I won't always agree, and sometimes I look at what other people do (as they might know more or be more specialized in terms of websites, doing my research). 
+
+other tips for personal websites all mention a blog <- don't think is right in terms of that. 
+
+Didn't agree with the fact that they would skip over the blog, as .
+
+does individual selection make a difference (seems liek they stop caring at marks past mid-90's, but waterloo says they accept more people with a certain average based on a graph. The model gives 100% acceptance at 100% average, which makes no sense)
+
