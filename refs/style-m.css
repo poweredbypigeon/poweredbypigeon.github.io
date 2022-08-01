@@ -81,3 +81,27 @@ PROJECTS: 1 project phones
 .project-box {
     border: 3px black solid;
 }
+/*blog*/
+.blog {
+    display: flex;
+}
+.blog-img-holder { /* experimented quite a bit to get this setting. Should publish down a CSS guide just in case I don't work on this for a while (e.g. at talbet layout want the thing to the right) so I used flex. */
+    display: block;
+    width: 70%;
+    max-width: 250px;
+    margin: auto 0;
+}
+.blog-img-r {
+    width: 100%;
+    height: auto;
+    margin: auto 0;
+}
+.blog-img {
+    display: none; 
+}
+.blog-detail {
+    padding-right: 2em;
+}
+.flex-filler {
+    flex-grow: 1; /*takes up extra space*/
+}

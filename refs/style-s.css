@@ -205,3 +205,39 @@ footer {
     border: 1px black solid;
     background-color: whitesmoke;
 }
+/* blog */
+.blog {
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.blog-header {
+    display: flex; /* just so they can be side by side */
+}
+.blog-img-holder {
+    display: none; 
+}
+.blog-img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.blog-info {
+    display: flex;
+}
+.blog-icon {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: darkblue;
+}
+.blog-widget-w1 { /* I didn't use flex-grow because I wanted blog design to stay consistent. */
+    width: 33%;
+}
+.blog-widget-w2 {
+    width: 66%
+}
+.blog-widget-w3 {
+    width: 100%;
+}
