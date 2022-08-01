@@ -14,7 +14,19 @@
 @import url(https://fonts.googleapis.com/css?family=Inter);
 
 :root { /* where variables are stored */
-    --navcolor: #777777;
+    --navcolour: #777777;
+    --mathcolour: lightblue;
+    --mathborder: mediumblue;
+    --chemcolour: lightgreen;
+    --chemborder: green;
+    --cscolour: whitesmoke;
+    --csborder: black;
+    --biocolour: #94fa6b; /*formerly lawngreen*/
+    --bioborder: olive;
+    --physcolour: #fab19d;
+    --physborder: crimson; 
+    --engcolour: beige;
+    --engborder: black;
 }
 
 *, ::after, ::before { /* useful for convenience sake */
@@ -44,7 +56,7 @@ remember this code belongs in style-m move it out when I find alternative*/
     display: inline-block; /* a tags are inline so they don't expand to width */
     font-size: 18px;
     /*border: 1px black solid;*/
-    background-color: var(--navcolor);
+    background-color: var(--navcolour);
     color: white;
 }
 .dropdown {
@@ -90,7 +102,7 @@ remember this code belongs in style-m move it out when I find alternative*/
 nav {
     width: 100%;
     /*position: fixed; (after scrolling past a certain point, use JavaScript to make it fixed)*/
-    background-color: var(--navcolor);
+    background-color: var(--navcolour);
     color: white;
     /*position: fixed;*/
 }
@@ -193,17 +205,30 @@ footer {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+#eng {
+    border: 1px var(--engborder) solid;
+    background-color: var(--engcolour);
+}
 #math {
-    border: 1px mediumblue solid;
-    background-color: lightblue;
+    border: 1px var(--mathborder) solid;
+    background-color: var(--mathcolour);
+}
+#bio {
+    border: 1px var(--bioborder) solid;
+    background-color: var(--biocolour);
 }
 #chem {
-    border: 1px green solid;
-    background-color: lightgreen;
+    border: 1px var(--chemborder) solid;
+    background-color: var(--chemcolour);
 }
+#phys {
+    border: 1px var(--physborder) solid;
+    background-color: var(--physcolour);
+}
+
 #cs {
-    border: 1px black solid;
-    background-color: whitesmoke;
+    border: 1px var(--csborder) solid;
+    background-color: var(--cscolour);
 }
 /* blog */
 .blog {
@@ -240,4 +265,7 @@ footer {
 }
 .blog-widget-w3 {
     width: 100%;
+}
+.subtitle {
+    font-size: 1.25em;
 }
