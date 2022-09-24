@@ -285,7 +285,7 @@ footer {
     text-align: center;
     
     color: white;
-    background-image: url("C:/Users/simpleuser/Documents/TechnologyMain/Programs/Personal Website/imgs/istockphoto-1280719024-170667a.jpg");
+    background-image: url("/imgs/istockphoto-1280719024-170667a.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -294,7 +294,7 @@ footer {
     
 }
 #project3 {  /* won't let me put this in style attribute inline */
-    background-image: url("C:/Users/simpleuser/Documents/TechnologyMain/Programs/Personal Website/imgs/tutorial-logo.png");
+    background-image: url("/imgs/tutorial-logo.png");
     
 }
 .project-overlay {
