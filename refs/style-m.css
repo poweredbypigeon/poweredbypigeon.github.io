@@ -13,12 +13,7 @@ PROJECTS: 1 project phones
 /*stylize bkgd color, border of a's*/
 .homesection {
     width: 18%;
-    text-align: center;
-    display: inline-block; /* a tags are inline so they don't expand to width */
-    font-size: 18px;
-    /*border: 1px black solid;*/
-    background-color: var(--navcolor);
-    color: white;
+    padding-bottom: 5px;
 }
 .dropdown {
     display: inline-block;
@@ -34,26 +29,7 @@ PROJECTS: 1 project phones
     color: white;
     display: inline-block;
 }
-.dropdown-content a {
-    display: block;
-    /*border: 1px black solid;
-    */
-    background-color: lightgray;
-    color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    
-}
-.dropdown > a {
-    width: 100%;
-    display: inline-block; /*not sure what this does but it seems to make the a obey the width command */
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-.dropdown-content a:hover {
-    background-color: orangered;
-    
-}
+
 .dropdown:hover .dropdown-content {
     display: block;
     text-align: center;
@@ -104,4 +80,11 @@ PROJECTS: 1 project phones
 }
 .flex-filler {
     flex-grow: 1; /*takes up extra space*/
+}
+#project-nav {
+    display: flex;
+}
+#project-nav > a {
+    padding-left: 1em;
+    padding-right: 1em;
 }

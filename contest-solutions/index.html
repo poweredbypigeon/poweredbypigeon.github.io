@@ -3,12 +3,12 @@
     <head>
         <title>Avery Chan | Home</title>
         <!-- file path: / -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="/refs/style-s.css">
-        <link type="text/css" rel="stylesheet" href="/refs/style-m.css" media="(min-width: 40em)"> 
-        <link type="text/css" rel="stylesheet" href="/refs/style.css" media="(min-width: 60em)">
-        <link rel="shortcut icon" type="image/x-icon" href="/imgs/grey-pigeon-icon-vector.webp" />
-        <script src="https://kit.fontawesome.com/7e033c7203.js" crossorigin="anonymous"></script>
+        <script src="/refs/intro.js" type="text/javascript"></script>
+        <script src="/refs/header.js" type="text/javascript"></script>
+        <script src="/refs/footer.js" type="text/javascript"></script>
+        <intro-component></intro-component>
+         <script src="https://kit.fontawesome.com/7e033c7203.js" crossorigin="anonymous"></script>
+        <!-- load Font Awesome, Bootstrap, jQuery. style.css is for all websites no matter what content. -->
     </head>
     <body>
         <div id="site">
@@ -16,28 +16,7 @@
                 <div id="imgPlaceholder">
                     <!-- image goes here -->
                 </div>
-                <nav>
-                    <a href="/" class="homesection">HOME</a>
-                    <a href="/academics/" class="homesection">ACADEMICS</a>
-                    <a href="/projects/" class="homesection">PROJECTS</a>
-                    <div class="dropdown homesection">
-                        <a href="/blog/">BLOG</a>
-                        <div class="dropdown-content">
-                            <a href="blog.html">SCHOOL</a>
-                            <a href="blog.html">STEM</a>
-                            <a href="blog.html">BUSINESS</a>
-                            <a href="blog.html">MISCELLANEOUS</a>
-                        </div>
-                    </div>
-                    <div class="dropdown homesection">
-                        <a href="/contests/">CONTESTS</a> <!-- contest results -->
-                        <div class="dropdown-content">
-                            <a href="/math-team/">MATH TEAM</a>
-                            <a href="/contest-solutions/">CONTEST SOLUTIONS</a>
-                            <a href="/contest-advice/">CONTEST ADVICE</a>
-                        </div>
-                    </div>
-                </nav>
+                <header-component></header-component>
             </header>
             <div id="main-content">
                 <!--<a class="filler">e</a>-->
@@ -66,15 +45,7 @@
             </div>
             <br>
             <br>
-            <hr>
-            <footer>
-                <p>FIND ME ON THESE SITES: </p>
-                <div id="icon-container">
-                    <a id="icon-linkedin"><img src="/imgs/LinkedinIcon.png" class="icon footer-icon"></a>
-                    <a id="icon-dmoj"><img src="/imgs/DmojIcon.png" class="icon footer-icon"></a>
-                    <a id="icon-github"><img src="/imgs/GithubIcon.png" class="icon footer-icon"></a>
-                </div>
-            </footer>
+            <footer-component></footer-component>
         </div>
     </body>
 </html>
