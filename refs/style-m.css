@@ -61,7 +61,7 @@ PROJECTS: 1 project phones
 .blog {
     display: flex;
 }
-.blog-img-holder { /* experimented quite a bit to get this setting. Should publish down a CSS guide just in case I don't work on this for a while (e.g. at talbet layout want the thing to the right) so I used flex. */
+.blog-img-holder { /* experimented quite a bit to get this setting. Should publish down a CSS guide just in case I don't work on this for a while (e.g. at talbet layout want the thing to the right) so I used flex.  */
     display: block;
     width: 70%;
     max-width: 250px;
