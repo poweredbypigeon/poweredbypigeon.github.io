@@ -13,10 +13,10 @@ class Header extends HTMLElement {
         <div class="dropdown homesection">
             <a href="/blog/">BLOG</a>
             <div class="dropdown-content">
-                <a href="blog.html">SCHOOL</a>
-                <a href="blog.html">STEM</a>
-                <a href="blog.html">BUSINESS</a>
-                <a href="blog.html">MISCELLANEOUS</a>
+                <a href="/blog/">SCHOOL</a>
+                <a href="/blog/">STEM</a>
+                <a href="/blog/">BUSINESS</a>
+                <a href="/blog/">MISCELLANEOUS</a> <!-- sort of a workaround -->
                 <a href="/blog/reviews/">REVIEWS</a>
             </div>
         </div>
