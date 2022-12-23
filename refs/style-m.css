@@ -88,3 +88,12 @@ PROJECTS: 1 project phones
     padding-left: 1em;
     padding-right: 1em;
 }
+.project-head {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.project-subtitle {
+    font-weight: bold;
+    font-size: 1.33em;
+}
