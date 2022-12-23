@@ -6,7 +6,7 @@ class Header extends HTMLElement {
   connectedCallback() { // woah this works!
     this.innerHTML = `
       <nav>
-        
+         
         <a href="/" class="homesection">HOME</a>
         <a href="/academics/" class="homesection">ACADEMICS</a>
         <a href="/projects/" class="homesection">PROJECTS</a>
