@@ -11,7 +11,7 @@ class Footer extends HTMLElement {
         <div id="icon-container">
             <a id="icon-linkedin"><img src="/imgs/LinkedinIcon.png" class="icon footer-icon"></a>
             <a id="icon-dmoj"><img src="/imgs/DmojIcon.png" class="icon footer-icon"></a>
-            <a id="icon-github"><img src="/imgs/GithubIcon.png" class="icon footer-icon"></a>
+            <a id="icon-github" href="https://github.com/poweredbypigeon/"><img src="/imgs/GithubIcon.png" class="icon footer-icon"></a>
         </div>
     </footer>
     `;

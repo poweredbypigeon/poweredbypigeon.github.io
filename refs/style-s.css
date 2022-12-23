@@ -44,6 +44,8 @@ body {
 
 /* home bar */
 
+
+
 #imgPlaceholderMainPage {
     margin: 0 auto;
     width: 100%;
@@ -308,4 +310,14 @@ footer {
 #project-nav {
     border-top: 1px gray solid;
     border-bottom: 1px gray solid;
+}
+
+.project-head {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.project-subtitle {
+    font-weight: bold;
+    font-size: 1.33em;
 }
