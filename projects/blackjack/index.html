@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Avery Chan | Blackjack </title>
+        <!-- file path: / -->
+        <script src="/refs/intro.js" type="text/javascript"></script>
+        <script src="/refs/header.js" type="text/javascript"></script>
+        <script src="/refs/footer.js" type="text/javascript"></script>
+        <intro-component></intro-component>
+         <script src="https://kit.fontawesome.com/7e033c7203.js" crossorigin="anonymous"></script>
+        <!-- load Font Awesome, Bootstrap, jQuery. style.css is for all websites no matter what content. -->
+    </head>
+    <body>
+        <div id="site">
+            <header>
+                <div id="imgPlaceholder">
+                    <!-- image goes here -->
+                </div>
+                <header-component></header-component>
+            </header>
+            <div id="main-content">
+                 <div id="breadcrumbs">
+                    <br>
+                    <a href="/"><span>Home</span></a>
+                    <span>></span>
+                    <a href="/projects/"><span>Projects</span></a>
+                     <span>></span>
+                    <a href="/projects/blackjack/"><span>Blackjack Game</span></a>
+                    <br>
+                </div>
+                <br>
+                <div class="project-banner" id="project4">
+                    <div class="project-overlay">
+                        <div id="project-text-box">
+                            <p class="project-head">BLACKJACK (TEXT-BASED)</p>
+                            <p class="project-subtitle">A text-based Java game that puts a new spin on a traditional game of Blackjack.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="project-nav">
+                    <a href="#project-details" onclick="details()" id="detail-link"><h2>PROJECT DETAILS</h2></a>
+                    <a href="#update-history" onclick="history()" id="history-link"><h2>UPDATE HISTORY</h2></a>
+                </div>
+                <div id="project-details">
+                    <h2>FEATURES</h2>
+                    <p>Blackjack is a text-based game coded in Java, which I made when I was first learning how to use it. I coded this on the CodeHS platform, but I added some extra features on here.
+                    </p>
+                    <p>Obviously, it's based off the card game Blackjack, where you draw cards and try to get a sum of 21. You play against a dealer that hits on a sum of 17. </p>
+                    <p>I was programming the project but I realized there were other actions like insurance, double down, etc. etc. so I decided to program those in, as well as some unconventional wins like a five-card charlie
+                        (you automatically win if you draw 5 cards).</p>
+                    <p>I also have a work in progress story line where you bankrupt the casino out of a billion dollars by cheating using these strange gadgets.</p>
+                    <p>The idea actually came to me when I wanted to make a debugger to give myself a certain hand so I could test out all the features. I had fun with this project by injecting humour into the flavour text, so I imagined the debugger as this USB stick that shot out blue lightning, which led to the inclusion of other gadgets.</p>
+
+                    <img src="/imgs/Blackjacode.png">
+                    <p>In terms of programming, this taught me about object oriented programming and how to make multiple Java files communicate with each other.</p>
+                    
+                    <h2>UPCOMING FEATURES</h2>
+                    <p>
+                        Some next steps I had in mind were: (in order)</p>
+                    <p>
+                    Version 1.1- Add more gadgets. I had a few ideas, like something that helps you card count. 
+                    Version 2.0- Finish the storyline. 
+                    </p>
+                </div>
+                <div id="update-history" style="display: none;">
+                    <h3>v1.0-</h3>
+                    <p>Created.</p>
+                </div>
+            </div>
+            <div id="sidebar"> <!-- 25% width, don't include yet. --> 
+            </div>
+            <br>
+            <br>
+            <footer-component></footer-component>
+        </div>
+        <script>
+        function details() {
+            document.getElementById("project-details").style.display = "block";
+            document.getElementById("update-history").style.display = "none";
+        }
+        function history() {
+            document.getElementById("project-details").style.display = "none";
+            document.getElementById("update-history").style.display = "block";
+        }
+        </script>
+    </body>
+</html>
