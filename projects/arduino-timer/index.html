@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Avery Chan | Portable Arduino Timer </title>
+        <!-- file path: / -->
+        <script src="/refs/intro.js" type="text/javascript"></script>
+        <script src="/refs/header.js" type="text/javascript"></script>
+        <script src="/refs/footer.js" type="text/javascript"></script>
+        <intro-component></intro-component>
+         <script src="https://kit.fontawesome.com/7e033c7203.js" crossorigin="anonymous"></script>
+        <!-- load Font Awesome, Bootstrap, jQuery. style.css is for all websites no matter what content. -->
+    </head>
+    <body>
+        <div id="site">
+            <header>
+                <div id="imgPlaceholder">
+                    <!-- image goes here -->
+                </div>
+                <header-component></header-component>
+            </header>
+            <div id="main-content">
+                 <div id="breadcrumbs">
+                    <br>
+                    <a href="/"><span>Home</span></a>
+                    <span>></span>
+                    <a href="/projects/"><span>Projects</span></a>
+                     <span>></span>
+                    <a href="/projects/arduino-timer/"><span>Portable Arduino Timer</span></a>
+                    <br>
+                </div>
+                <br>
+                <div class="project-banner" id="project6">
+                    <div class="project-overlay">
+                        <div id="project-text-box">
+                            <p class="project-head">PORTABLE ARDUINO TIMER</p>
+                            <p class="project-subtitle">A portable Arduino timer that allows you to count upwards or count downwards.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="project-nav">
+                    <a href="#project-details" onclick="details()" id="detail-link"><h2>PROJECT DETAILS</h2></a>
+                    <a href="#update-history" onclick="history()" id="history-link"><h2>UPDATE HISTORY</h2></a>
+                </div>
+                <div id="project-details">
+                    <h2>FEATURES</h2>
+                    <!-- 
+ -->
+                    <p>A portable Arduino timer. Has two different modes: one where it counts up, and one where it counts down. The user interface is done through an LCD screen, and the input comes from 2 push buttons. The program starts off at the home screen where the user chooses between the 2 different modes.
+                    </p>
+                    <h4>MODE 1:</h4>
+                    <p>The timer starts counting up. You can press the first button to alternately pause/resume the timer, and hold down the 2nd button to leave. There will also be a speaker that beeps every minute to alert you.
+                    </p>
+                    <h4>MODE 2:</h4>
+                    <p>First, you select how much time you want to give yourself (e.g. a 15 min, 30 min timer), and hold down both buttons to start the actual timer. There will be an RGB LED that changes colour as the timer counts down so you can measure progress (this was actually one of my favourite parts of building the project).
+                    </p>
+                    <p>I also have a work in progress story line where you bankrupt the casino out of a billion dollars by cheating using these strange gadgets.</p>
+                    <p>The idea actually came to me when I wanted to make a debugger to give myself a certain hand so I could test out all the features. I had fun with this project by injecting humour into the flavour text, so I imagined the debugger as this USB stick that shot out blue lightning, which led to the inclusion of other gadgets.</p>
+
+                    <img src="/imgs/ArduinoTimerInAction.jpg">
+                    <p>I learned about how libraries work (e.g. LiquidCrystal_I2C.h and how to use it), as the only LCD screen I had was different from the LCD screens available on TinkerCAD (what I use to plan out these projects).</p>
+                    
+                    <h2>UPCOMING FEATURES</h2>
+                    <p>
+                        Some next steps I had in mind were: (in order)</p>
+                    <p>
+                    Version 1.1- get a better LCD screen that can add more text, as the 16x2 limit may make some instructions confusing.
+                    Version 1.2- Add 3 buttons so I can do other features (e.g. laps like a traditional stopwatch)
+                    </p>
+                    <!-- Have a rounded gray button with "View the code on Github" with display flex and the github icon-->
+                </div>
+                <div id="update-history" style="display: none;">
+                    <h3>v1.0-</h3>
+                    <p>Created, and built. </p>
+                </div>
+            </div>
+            <div id="sidebar"> <!-- 25% width, don't include yet. --> 
+            </div>
+            <br>
+            <br>
+            <footer-component></footer-component>
+        </div>
+        <script>
+        function details() {
+            document.getElementById("project-details").style.display = "block";
+            document.getElementById("update-history").style.display = "none";
+        }
+        function history() {
+            document.getElementById("project-details").style.display = "none";
+            document.getElementById("update-history").style.display = "block";
+        }
+        </script>
+    </body>
+</html>

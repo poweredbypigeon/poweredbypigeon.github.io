@@ -304,6 +304,9 @@ footer {
 #project5 {
     background-image: url("/imgs/Blackjacode.png"); 
 }
+#project6 {
+    background-image: url("/imgs/ArduinoTimerInAction.jpg");
+}
 .project-overlay {
     background-color: rgba(20, 20, 20, 0.5);
     height: 16em;
