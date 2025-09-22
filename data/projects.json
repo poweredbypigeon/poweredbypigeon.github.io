@@ -1,0 +1,220 @@
+[
+  {
+    "slug": "latex-converter",
+    "title": "LaTeX Converter",
+    "date": "2025-09-01",
+    "tags": ["ml", "ocr", "transformer"],
+    "summary": "Uses LSTMs, SVMs, and transformers to convert handwritten math equations into LaTeX code.",
+    "hero": "/imgs/APS_Project.png",
+    "links": {
+      "repo": "https://www.github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Handwritten equation recognition pipeline using <strong>LSTM</strong>, <strong>SVM</strong>, and <strong>Transformers</strong>.</p>"
+    ]
+  },
+  {
+    "slug": "random-forest-bot",
+    "title": "Random Forest Trading Bot",
+    "date": "2025-08-01",
+    "tags": ["ml", "scikit-learn", "finance", "trading"],
+    "summary": "Predicts whether a Yahoo Finance stock will go up or down using a random forest model.",
+    "hero": "/imgs/placeholder.png",
+    "links": {
+      "repo": "https://www.github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p><strong>Random forest</strong> classifier trained on Yahoo Finance data to predict stock movements.</p>"
+    ]
+  },
+  {
+    "slug": "equation-clipper",
+    "title": "Equation Clipper",
+    "date": "2025-06-01",
+    "tags": ["ml", "ocr", "python", "desktop"],
+    "summary": "Executable like Snipping Tool that transcribes equations from screenshots into LaTeX.",
+    "hero": "/imgs/equation_clipper.png",
+    "links": {
+      "repo": "https://www.github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Clipboard tool that captures an image and outputs <strong>LaTeX</strong> markup of detected equations.</p>"
+    ]
+  },
+  {
+    "slug": "quant-finance-trading",
+    "title": "Finance Trading Bot",
+    "date": "2025-03-01",
+    "tags": ["finance", "trading"],
+    "summary": "Uses RSI & Mean Reversion to execute optimal trades.",
+    "hero": "/imgs/QuantProjectCode.png",
+    "links": {
+      "repo": "https://www.github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Automated trading strategy based on <strong>RSI</strong> and <strong>mean reversion</strong> signals.</p>"
+    ]
+  },
+  {
+    "slug": "lure-lore",
+    "title": "LureLore (Hack the North Finalist)",
+    "date": "2024-09-15",
+    "tags": ["ml", "database", "web", "hackathon"],
+    "summary": "AI identifies fish and memorializes them in a 3D aquarium.",
+    "hero": "/imgs/LureLore1.jpg",
+    "links": {
+      "repo": "https://github.com/danielh-hong/hackthenorth2024"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Built at <strong>Hack the North 2024</strong>, this app identifies fish with <strong>computer vision</strong> and creates a 3D aquarium.</p>"
+    ]
+  },
+  {
+    "slug": "prodwatch",
+    "title": "ProdWatch",
+    "date": "2023-12-01",
+    "tags": ["cv", "ml", "hackathon", "desktop"],
+    "summary": "Uses AI & computer vision to detect whether you are focused or not.",
+    "hero": "/imgs/placeholder.png",
+    "links": {
+      "repo": "https://www.github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Productivity tracker that monitors focus using <strong>computer vision</strong>.</p>"
+    ]
+  },
+  {
+    "slug": "phy180-pendulum",
+    "title": "PHY180 Pendulum Analysis",
+    "date": "2023-12-01",
+    "tags": ["physics", "python", "data-science", "analysis"],
+    "summary": "Physics lab analyzing pendulum motion.",
+    "hero": "/imgs/placeholder.png",
+    "links": {
+      "repo": "https://www.github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Analysis of pendulum oscillations and energy conservation.</p>"
+    ]
+  },
+  {
+    "slug": "civ102-bridge",
+    "title": "CIV102 Bridge Analysis",
+    "date": "2023-12-01",
+    "tags": ["matlab", "analysis"],
+    "summary": "Bridge analysis project for CIV102.",
+    "hero": "/imgs/placeholder.png",
+    "links": {
+      "repo": "https://github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Structural analysis of bridge designs for course project.</p>"
+    ]
+  },
+  {
+    "slug": "praxis-iii",
+    "title": "Praxis III - Wildfire Detection System",
+    "date": "2025-04-01",
+    "tags": ["iot", "raspberry-pi", "electronics"],
+    "summary": "A sensor tower which predicts wildfires before they even begin.",
+    "hero": "/imgs/placeholder.png",
+    "contentHtml": [
+      "<h3>Overview</h3><p>IoT sensor network with <strong>weather and smoke detection</strong> to anticipate wildfires.</p>"
+    ]
+  },
+  {
+    "slug": "praxis-ii",
+    "title": "Praxis II - SyncPod",
+    "date": "2024-04-01",
+    "tags": ["iot", "electronics", "ros"],
+    "summary": "A canoe paddle sensor that measures strokes per minute for synchronization.",
+    "hero": "/imgs/placeholder.png",
+    "contentHtml": [
+      "<h3>Overview</h3><p>Hardware paddle device tracking <strong>strokes/minute</strong> to improve canoe team sync.</p>"
+    ]
+  },
+  {
+    "slug": "bestbuy-scraper",
+    "title": "Best Buy Web Scraper",
+    "date": "2023-02-01",
+    "tags": ["python", "web-scraping"],
+    "summary": "Scrapes Best Buy for laptop data and formats it neatly.",
+    "hero": "/imgs/placeholder.png",
+    "links": {
+      "repo": "https://www.github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Web scraper that parses <strong>Best Buy</strong> laptop listings into structured datasets.</p>"
+    ]
+  },
+  {
+    "slug": "datatracker",
+    "title": "DataTracker",
+    "date": "2023-11-01",
+    "tags": ["android", "java", "mobile"],
+    "summary": "Record a running list of data. Supports different categories.",
+    "hero": "/imgs/placeholder.png",
+    "links": {
+      "repo": "https://www.github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Lightweight data logging application with categorical tagging.</p>"
+    ]
+  },
+  {
+    "slug": "tutorial",
+    "title": "TUTORial",
+    "date": "2023-08-01",
+    "tags": ["web"],
+    "summary": "Online tutoring service that helps kids with homework and studying for tests.",
+    "hero": "/imgs/tutorial-logo.png",
+    "links": {
+      "repo": "https://www.github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Web platform for <strong>homework support</strong> and test prep tutoring.</p>"
+    ]
+  },
+  {
+    "slug": "arduino-projects",
+    "title": "Arduino Projects",
+    "date": "2022-09-01",
+    "tags": ["arduino", "electronics"],
+    "summary": "Collection of projects built with Arduino and breadboards.",
+    "hero": "/imgs/duino-logo.jpg",
+    "links": {
+      "repo": "https://www.github.com"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Basic electronic circuits and projects to learn <strong>Arduino</strong>.</p>"
+    ]
+  },
+  {
+    "slug": "blackjack",
+    "title": "Blackjack (Text-Based)",
+    "date": "2021-06-01",
+    "tags": ["java", "game"],
+    "summary": "A text-based Java game that puts a new spin on Blackjack.",
+    "hero": "/imgs/Blackjacode.png",
+    "links": {
+      "repo": "https://github.com/poweredbypigeon/Blackjack-Text-Based-"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Console game implementing <strong>Blackjack</strong> rules with custom variations.</p>"
+    ]
+  },
+  {
+    "slug": "arduino-timer",
+    "title": "Portable Arduino Timer",
+    "date": "2022-08-15",
+    "tags": ["arduino", "electronics"],
+    "summary": "A portable Arduino timer that allows you to count upwards or count downwards.",
+    "hero": "/imgs/ArduinoTimerTinkerCad.png",
+    "links": {
+      "repo": "https://github.com/poweredbypigeon/Portable-Arduino-Timer"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p>Timer circuit with <strong>up/down counting</strong> functionality on Arduino.</p>"
+    ]
+  }
+]

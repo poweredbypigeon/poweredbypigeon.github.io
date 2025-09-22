@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "sensor-tower",
+    "title": "FWI Sensor Tower",
+    "date": "2025-03-12",
+    "tags": ["iot", "pico-w", "embedded"],
+    "summary": "Low-power weather station reporting Fire Weather Index.",
+    "hero": "/img/placeholder.png",
+    "links": {
+      "repo": "https://github.com/your-handle/fwi-tower",
+      "demo": "https://your-demo.example.com/fwi"
+    },
+    "contentHtml": [
+      "<h3>Overview</h3><p><strong>Pico W</strong> with <strong>HX711</strong> and solar charging.</p>",
+      "<h4>Telemetry</h4><p>Data sent via <strong>Adafruit IO</strong>; weekly rollups.</p>"
+    ]
+  },
+  {
+    "slug": "asl-cnn-classifier",
+    "title": "ASL CNN Classifier",
+    "date": "2024-11-05",
+    "tags": ["ml", "cv", "pytorch"],
+    "summary": "ResNet-18 backbone; 96% accuracy.",
+    "hero": "/img/asl.png",
+    "links": { "repo": "https://github.com/you/asl-cnn" },
+    "contentHtml": [
+        "<h3>Overview</h3><p><strong>ResNet-18</strong> with custom augments. See confusion matrix below.</p>",
+        "<img src=\"/img/asl-confusion.png\" alt=\"Confusion matrix\" />",
+        "<h4>Notes</h4><ul><li>Mixed precision</li><li>Cosine LR</li></ul>"
+    ]
+    }
+
+]
