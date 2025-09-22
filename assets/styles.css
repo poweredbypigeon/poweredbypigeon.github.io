@@ -108,7 +108,10 @@ body{
 
 a {
   color: var(--accent);
-  text-decoration: none;
+}
+
+:root.light a {
+  color: var(--fg);
 }
 
 #mobileMenu {
