@@ -106,11 +106,11 @@ body{
   pointer-events: auto;
 }
 
-a {
+.card-title-link {
   color: var(--accent);
 }
 
-:root.light a {
+:root.light .card-title-link {
   color: var(--fg);
 }
 
@@ -176,6 +176,7 @@ a {
 .btn:hover{filter:brightness(.95)}
 .btn-ghost{background:transparent; color:var(--fg); border:1px solid var(--line); box-shadow:none}
 .btn-ghost:hover{background:var(--line)}
+
 .mesh{
   position:absolute; inset:-20% -10% auto -10%; height:70%;
   background:
